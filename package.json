@@ -1,0 +1,27 @@
+{
+  "name": "jsxgen",
+  "version": "1.0.0",
+  "description": "JSX generator for React projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WitoldSlawko/jsxgen.git"
+  },
+  "author": "Witold Slawko",
+  "license": "ISC",
+  "bin": {
+    "jsxgen": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/WitoldSlawko/jsxgen/issues"
+  },
+  "homepage": "https://github.com/WitoldSlawko/jsxgen#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "prompt": "^1.0.0"
+  }
+}
