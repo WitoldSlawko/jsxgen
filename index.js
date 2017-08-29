@@ -75,7 +75,7 @@ function deploy(){
       if (i == 0) {
         fs.appendFileSync(`${result.fileName}.jsx`, `const ${resul.fileName}= (state, action) => {`)
       }
-      else if (i == red.length - 1) {
+      else if (i == red.length - 2) {
         fs.appendFileSync(`${result.fileName}.jsx`, `export default ${result.fileName}`)
       }
       else {
@@ -89,7 +89,7 @@ function deploy(){
         if (i == 3) {
           fs.appendFileSync(`${result.fileName}.jsx`, `const ${result.fileName}= createStore(, { :  });`)
         }
-        else if (i == red.length - 1) {
+        else if (i == red.length - 2) {
           fs.appendFileSync(`${result.fileName}.jsx`, `export default ${result.fileName}`)
         }
         else {

@@ -1,4 +1,4 @@
-cmp_class = [
+var cmp_class = [
   `import React from 'react';`,
   ` `,
   `export default class /*file_name*/ extends React.Component {`,

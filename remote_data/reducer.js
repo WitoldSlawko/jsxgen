@@ -1,4 +1,4 @@
-red = [
+var red = [
   `const /*file_name*/ = (state, action) => {`,
   `  switch (action.type) {`,
   `    case '':`,
@@ -8,7 +8,8 @@ red = [
   `    }`,
   `}`,
   ` `,
-  `export default /**/;`
+  `export default /**/;`,
+  ` `
 ]
 
 module.exports = red

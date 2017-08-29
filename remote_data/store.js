@@ -1,4 +1,4 @@
-sto = [
+var sto = [
   `import { createStore } from 'redux';`,
   `import {} from '.jsx' //reducers`,
   ` `,
